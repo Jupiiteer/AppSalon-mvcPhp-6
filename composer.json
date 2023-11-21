@@ -1,0 +1,23 @@
+{
+  "name": "kevin/app-salon-8",
+  "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "MVC\\": "./",
+      "Controllers\\": "./controllers",
+      "Model\\": "./models",
+      "Classes\\": "./classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kevin Ruiz",
+      "email": "kruiz@frba.utn.edu.ar"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.8",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
